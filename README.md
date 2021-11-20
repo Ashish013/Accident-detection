@@ -1,7 +1,7 @@
 # Accident-detection
 Detecting accidents/crashes in CCTV footage.
 
-This repository contains 3D Residual Network code for my minor project coursework titled 'Accident Identification using Deep Learning'. Please find the detailed report along side this repository [here](/assests/report.pdf).
+This repository contains 3D Residual Network code for my minor project coursework titled 'Accident Identification using Deep Learning'. Please find the detailed [report](assets/report.pdf) along side this repository.
 
 ### 3D ResNet details
 Let x denote the input clip of size 3×L×H×W, where L is the number of frames inthe input video, H and W are the video frame height and width, and 3 refers to the RGB channels. In this model we consider each block to consist of two convolutional layers with a ReLU activation function after each layer, without the bottleneck layers.  Let z<sub>i</sub> ,a<sub>i</sub> be the tensors computed by the i<sup>th</sup> convolutional block in the residual network and  the activations obtained after applying ReLu function respectively The output of this i<sup>th</sup> residual block can be represented as:
